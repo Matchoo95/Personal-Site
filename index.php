@@ -1,4 +1,4 @@
-<!DOCTYPE html> <!-- The new doctype -->
+<!DOCTYPE html> 
 <html>
     <head>
       <title>Matthew Hawkins - Personal Website</title>
