@@ -28,7 +28,7 @@
                 <a href="tempBack.jpg"><img src="tempBack.jpg"/></a>
                 <p class="text">
                 Matthew Hawkins</p>
-                <p class="text">Programmer, Language Enthusiast, Software Engineer</p>
+                <p class="text">Programmer, Language Enthusiast, Software Engineer and James is a dick</p>
 
 
               </div>
