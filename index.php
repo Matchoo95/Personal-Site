@@ -17,7 +17,7 @@
     <body>
 
     <?php
-        include(
+        include 'https://raw.githubusercontent.com/Matchoo95/Personal-Site/master/index.php';
     ?>
     
     
