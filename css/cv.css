@@ -1,0 +1,222 @@
+/* applys a fixed box model to each element making it easier for sizing elements */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* text styles */
+
+h1 {
+    display: inline-block;
+    margin-bottom: 0.5em;
+    padding: 0.5em 1em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h2 {
+    margin-bottom: 0.1em;
+    letter-spacing: 0.0625em;
+    font-weight: 900;
+    line-height: 1em;
+}
+
+h3 {
+    padding: 0.5em 0 0.25em 0;
+    letter-spacing: 0.0625em;
+    font-weight: 200;
+    line-height: 0.75em;
+}
+
+p, li {
+    padding: 0.1em 0;
+    text-align: left;
+    font-family: verdana, sans-serif;
+
+}
+
+p {
+    text-indent: 3em;
+}
+
+
+/* layout */
+
+
+
+body {
+    float: right;
+    padding: 1%;
+    border-radius: 0.625em;
+    background: #FFFFFF;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+header {
+    float: right;
+    width: 75%;
+    text-align: center;
+}
+aside {
+  float: left;
+  width: 25%;
+  padding: 1%;
+  border-radius: 0.625em;
+  background: #999999;
+  font: #FFFFFF;
+}
+
+section {
+    margin-top: 0.3125em;
+    padding: 0.3125em;
+}
+
+article {
+    float: right;
+    width: 75%;
+    margin-top: 0.3125em;
+    padding: 0.3125em;
+}
+
+.titlebanner {
+    float: right;
+    width: 75%;
+    padding: 1% 5% 5% 0;
+    text-align: center;
+    color: #000;
+    border-radius: 0.625em;
+    background-color: #f0ad4e;
+    font-weight: bold;
+}
+
+dd {
+  font-size: 0.75em;
+}
+
+ul {
+  padding-left: 5%;
+  line-height: 1em;
+}
+
+/* links */
+
+a:link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+/* visuals */
+
+hr {
+    height: 1px;
+    margin: 1em 0em;
+    border-top: 1px solid #bbb;
+}
+
+.nostyle {
+  height: 0px;
+  margin: 0em 0em;
+  border-top: 0px;
+}
+
+
+/* Media Queries */
+
+
+/* 1px + */
+
+@media screen and (min-width:0.0625em) {
+    body {
+        font-size: 100%;
+    }
+}
+
+
+/* 550px + */
+
+@media screen and (min-width:34.375em) {
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+
+/* 650px + */
+
+@media screen and (min-width:40.625em) {
+    body {
+        font-size: 100%;
+    }
+    aside {
+        font-size: 100%;
+    }
+    article {
+        width: 100%;
+    }
+    #bodyfooter {
+        width: 100%;
+    }
+}
+
+
+/* 700px + */
+
+@media screen and (min-width: 43.75em) {
+    body {
+        font-size: 105%;
+    }
+}
+
+
+/* 800px + */
+
+@media screen and (min-width:50em) {
+    body {
+        font-size: 107.5%;
+    }
+}
+
+
+/* 900px + */
+
+@media screen and (min-width:56.25em) {
+    body {
+        font-size: 110%;
+    }
+    aside {
+        font-size: 110%;
+    }
+}
+
+
+/* 1500px + */
+
+@media screen and (min-width:93.75em) {
+    body {
+        font-size: 115%;
+    }
+    aside {
+        font-size: 115%;
+    }
+}
+
+
+/* 1800px + */
+
+@media screen and (min-width:112.5em) {
+    body {
+        font-size: 125%;
+    }
+    aside {
+        font-size: 125%;
+    }
+}
